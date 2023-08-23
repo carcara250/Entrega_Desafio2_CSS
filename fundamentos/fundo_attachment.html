@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedade Background Attachment</title>
+    <style>
+        body {
+            height: 200vh;
+        }
+
+        div {
+            margin-bottom: 30px;
+        }
+
+        .exemplo-1 {
+            width: 200px;
+            height: 200px;
+            border: 2px solid red;
+            background-image: url("img/image-1.avif");
+            background-size: cover;
+            overflow: auto;
+            background-attachment: fixed;
+        }
+
+        .exemplo-2 {
+            width: 200px;
+            height: 200px;
+            border: 2px solid red;
+            background-image: url("img/image-1.avif");
+            background-size: cover;
+            overflow: auto;
+            background-attachment: scroll;
+        }
+
+        .exemplo-3 {
+            width: 200px;
+            height: 200px;
+            border: 2px solid red;
+            background-image: url("img/image-1.avif");
+            background-size: cover;
+            overflow: auto;
+            background-attachment: local;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Propriedade Background Attachment</h1>
+
+    <code>Background-attachment: fixed ;</code>
+    <div class="exemplo-1" id="fixed">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quidem! Nulla voluptas, similique earum
+            temporibus impedit deleniti illum eveniet autem iure ut enim itaque architecto quam molestiae numquam eaque
+            sequi!, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, neque? Voluptatum, ullam accusamus
+            fugiat dolorum dicta officiis quis, illo aspernatur omnis ut ipsa, itaque necessitatibus. Fuga consequuntur
+            fugiat libero deserunt?</p>
+    </div><br>
+
+    <code>Background-attachment: scroll;</code>
+    <div class="exemplo-2" id="scroll">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt obcaecati cumque vitae temporibus amet iste
+            libero delectus quod, aut perspiciatis, culpa impedit officia excepturi inventore fugit. Quos voluptate
+            doloremque ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem maxime consectetur
+            natus earum dolores sunt veniam exercitationem repudiandae, animi quae dicta eaque, soluta ducimus. Maxime
+            quaerat natus eveniet quas dolorem.</p>
+    </div><br>
+
+    <code>Background-attachment: local;</code>
+    <div class="exemplo-3" id="local">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi est quo inventore impedit, eum adipisci
+            expedita blanditiis dolore. Tenetur nostrum ducimus illo libero dicta impedit! Laboriosam molestiae quidem
+            fugiat! Voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dolorum a alias voluptates,
+            fugit, nisi reprehenderit vero similique hic quae consequatur quam. Incidunt nobis excepturi velit quam
+            deserunt et quo!</p>
+    </div><br>
+
+
+</body>
+
+</html>

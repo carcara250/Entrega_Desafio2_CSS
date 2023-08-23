@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<style>
+    div {
+        width: 200px;
+        height: 300px;
+        border: 5px solid blue;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #contain {
+        object-fit: contain;
+    }
+
+    #cover {
+        object-fit: cover;
+    }
+
+    #none {
+        object-fit: none;
+    }
+
+    #scale-down {
+        object-fit: scale-down;
+    }
+</style>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h1>Propriedade <code>object-fit</code></h1>
+
+            <code>object-fit: fill ;</code> (padrao)
+            <div>
+                <img src="img/dio.jpg" alt="imagem da Dio.me" id="fill">
+            </div><br>
+
+            <code>object-fit: contain ;</code>
+            <div>
+                <img src="img/dio.jpg" alt="imagem da Dio.me" id="contain">
+            </div><br>
+
+            <code>object-fit: cover;</code>
+            <div>
+                <img src="img/dio.jpg" alt="imagem da Dio.me" id="cover">
+            </div><br>
+
+            <code>object-fit: none;</code>
+            <div>
+                <img src="img/dio.jpg" alt="imagem da Dio.me" id="none">
+            </div><br>
+
+            <code>object-fit: scale-down;</code>
+            <div>
+                <img src="img/dio.jpg" alt="imagem da Dio.me" id="scale-down">
+            </div><br>
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

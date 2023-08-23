@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedade Overflow</title>
+
+    <style>
+        div {
+            background: orange;
+            width: 200px;
+            height: 200px;
+            padding: 10px;
+            border: 5px solid salmon;
+            overflow: visible;
+        }
+
+        #hiden {
+            overflow: hidden;
+        }
+
+        #scroll {
+            overflow: scroll;
+        }
+
+        #auto {
+            overflow: scroll;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Propriedade Overflow</h1>
+    <p>Controla como o conteúdo deve ser exibido caso ultrapasse os limites do container</p>
+    <p><i>Exemplos:</i></p>
+
+    <p><code>overflow: visible;</code></p>
+    <div id="visible">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas expedita, vel quos eos veniam, natus aliquam
+            delectus vero dolore, debitis perferendis nesciunt ipsum nostrum a? Officiis iste perspiciatis iure fugiat!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laborum, cumque quam quis eius nulla,
+            saepe dolores, dolorem magnam harum fuga architecto sint. Nostrum velit quaerat architecto repudiandae,
+            nesciunt debitis.
+        </p>
+    </div><br><br><br><br><br><br>
+
+    <p><code>overflow: hiden;</code></p>
+    <div id="hiden">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas expedita, vel quos eos veniam, natus aliquam
+            delectus vero dolore, debitis perferendis nesciunt ipsum nostrum a? Officiis iste perspiciatis iure fugiat!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laborum, cumque quam quis eius nulla,
+            saepe dolores, dolorem magnam harum fuga architecto sint. Nostrum velit quaerat architecto repudiandae,
+            nesciunt debitis.
+        </p>
+    </div>
+
+
+    <p><code>overflow: scroll;</code></p>
+    <div id="scroll">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas expedita, vel quos eos veniam, natus aliquam
+            delectus vero dolore, debitis perferendis nesciunt ipsum nostrum a? Officiis iste perspiciatis iure fugiat!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laborum, cumque quam quis eius nulla,
+            saepe dolores, dolorem magnam harum fuga architecto sint. Nostrum velit quaerat architecto repudiandae,
+            nesciunt debitis.
+        </p>
+    </div>
+
+    <p><code>overflow: auto;</code></p>
+    <div id="auto">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas expedita, vel quos eos veniam, natus aliquam
+            delectus vero dolore, debitis perferendis nesciunt ipsum nostrum a? Officiis iste perspiciatis iure fugiat!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laborum, cumque quam quis eius nulla,
+            saepe dolores, dolorem magnam harum fuga architecto sint. Nostrum velit quaerat architecto repudiandae,
+            nesciunt debitis.
+        </p>
+    </div>
+</body>
+
+</html>
